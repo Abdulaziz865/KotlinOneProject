@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    tools:context=".AddFragment">
+
+    <EditText
+        android:id="@+id/image_create"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="140dp"
+        android:background="@drawable/oval"
+        android:gravity="center"
+        android:hint="@string/url_image"
+        android:textSize="20dp"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/et_name_create"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/oval"
+        android:gravity="center"
+        android:hint="@string/person_name"
+        android:textSize="20dp"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/et_age_create"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/oval"
+        android:gravity="center"
+        android:hint="@string/age_person"
+        android:inputType="number"
+        android:textSize="20dp"
+        android:textStyle="italic" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_create"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:padding="5dp"
+        android:text="@string/create"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        app:cornerRadius="20dp"
+        app:strokeColor="#FF0000"
+        app:strokeWidth="3dp" />
+
+</LinearLayout>

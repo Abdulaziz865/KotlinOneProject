@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Home4Android1</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="person_name">Введите имя для персонажа</string>
+    <string name="age_person">Введите возраст для персонажа</string>
+    <string name="create">Создать</string>
+    <string name="url_image">Вставьте ссылку</string>
+    <string name="url">URl......</string>
+</resources>
